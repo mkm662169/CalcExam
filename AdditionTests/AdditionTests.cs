@@ -1,6 +1,10 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Addition;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace Addition
+namespace Addition.Tests
 {
     public static class Addition
     {
