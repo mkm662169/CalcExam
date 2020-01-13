@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Square", "Square\Square.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareRootOperationTests", "SquareRootOperationTests\SquareRootOperationTests.csproj", "{0699F584-CE3E-47C7-BA83-283F0ABEBB88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutiplicationTests", "MutiplicationTests\MutiplicationTests.csproj", "{A7B88F5D-09C4-4E75-9BEB-2C53A0E44993}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutiplicationTests", "MutiplicationTests\MutiplicationTests.csproj", "{A7B88F5D-09C4-4E75-9BEB-2C53A0E44993}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
