@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtractionOperationTests1"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpersTests", "HelpersTests\HelpersTests.csproj", "{38D67659-B91F-4ADD-84D1-C90812FB5D9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareRootOperationTests", "SquareRootOperationTests\SquareRootOperationTests.csproj", "{0699F584-CE3E-47C7-BA83-283F0ABEBB88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{38D67659-B91F-4ADD-84D1-C90812FB5D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D67659-B91F-4ADD-84D1-C90812FB5D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38D67659-B91F-4ADD-84D1-C90812FB5D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0699F584-CE3E-47C7-BA83-283F0ABEBB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0699F584-CE3E-47C7-BA83-283F0ABEBB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0699F584-CE3E-47C7-BA83-283F0ABEBB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0699F584-CE3E-47C7-BA83-283F0ABEBB88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
