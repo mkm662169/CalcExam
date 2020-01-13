@@ -18,5 +18,11 @@ namespace Helpers
             var randomNumber = random.Next(min, max);
             return randomNumber;
         }
+        /*public double GenerateRandomNumber(double min, double max)
+        {
+            Random random = new Random(Seed);
+            var randomNumber = random.Next(min, max);
+            return randomNumber;
+        }*/
     }
 }
