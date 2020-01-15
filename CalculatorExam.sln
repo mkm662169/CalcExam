@@ -35,13 +35,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeanOperation", "MeanOperat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeanOperationTests", "MeanOperationTests\MeanOperationTests.csproj", "{C40F40EE-C0E4-4986-807A-70AE074B8AEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTests", "CalculatorTests\CalculatorTests.csproj", "{6BD3101D-5AF5-4B79-8CF1-215A7F16C4DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorTests", "CalculatorTests\CalculatorTests.csproj", "{6BD3101D-5AF5-4B79-8CF1-215A7F16C4DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceInterfaces", "DifferenceInterfaces\DifferenceInterfaces.csproj", "{374469B2-F752-459C-B00B-30D08B0617FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DifferenceInterfaces", "DifferenceInterfaces\DifferenceInterfaces.csproj", "{374469B2-F752-459C-B00B-30D08B0617FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeanInterfaces", "MeanInterfaces\MeanInterfaces.csproj", "{A1A69D2A-E68D-4437-A769-52F78DA042F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeanInterfaces", "MeanInterfaces\MeanInterfaces.csproj", "{A1A69D2A-E68D-4437-A769-52F78DA042F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootInterfaces", "RootInterfaces\RootInterfaces.csproj", "{68CE3132-8A9A-440F-BA89-98EE0874E6D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RootInterfaces", "RootInterfaces\RootInterfaces.csproj", "{68CE3132-8A9A-440F-BA89-98EE0874E6D6}"
+EndProject
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +130,10 @@ Global
 		{68CE3132-8A9A-440F-BA89-98EE0874E6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68CE3132-8A9A-440F-BA89-98EE0874E6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68CE3132-8A9A-440F-BA89-98EE0874E6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D938E696-7C9F-431C-857C-B3266FDAE7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D938E696-7C9F-431C-857C-B3266FDAE7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D938E696-7C9F-431C-857C-B3266FDAE7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D938E696-7C9F-431C-857C-B3266FDAE7D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
