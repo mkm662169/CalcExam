@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Mode
 {
-    public class Mode
+    public class StatsMode
     {
 
         public static double Findmode(int[] x)
