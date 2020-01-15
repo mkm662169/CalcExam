@@ -43,7 +43,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeanInterfaces", "MeanInter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RootInterfaces", "RootInterfaces\RootInterfaces.csproj", "{68CE3132-8A9A-440F-BA89-98EE0874E6D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mode", "Mode\Mode.csproj", "{D938E696-7C9F-431C-857C-B3266FDAE7D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
