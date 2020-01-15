@@ -6,38 +6,38 @@ using System.Text;
 
 namespace Addition.Tests
 {
-    public static class Addition
+    [TestClass()]
+    public class AdditionTests
     {
-        public static int Sum(int a, int b)
+        private readonly int a = 10;
+        private readonly int b = 20;
+        private readonly double c = 10.5;
+        private readonly double d = 20.5;
+        private readonly double[] arrayA = { 1.01, 2.04, 3.06, 4.07, 6.4, 7, 8, 9, 10 };
+        private readonly int[] arrayB = { 1, 2, 3, 4, 6, 7, 8, 9, 10 };
+
+        [TestMethod()]
+        public void SumTest()
         {
-            return a + b;
+            Assert.AreEqual(30, Addition.Sum(a, b));
         }
 
-        public static double Sum(double a, double b)
+        [TestMethod()]
+        public void SumDoubleTest()
         {
-            return a + b;
+            Assert.AreEqual(31, Addition.Sum(c, d));
         }
 
-        public static double Sum(double[] arrayA)
+        [TestMethod()]
+        public void SumDoubleArrayTest()
         {
-            double c = 0.0;
-            foreach (double a in arrayA)
-            {
-                c = Sum(a, c);
-            }
-
-            return c;
+            Assert.AreEqual(50.58, Addition.Sum(arrayA));
         }
 
-        public static int Sum(int[] arrayA)
+        [TestMethod()]
+        public void SumIntArrayTest()
         {
-            int c = 0;
-            foreach (int a in arrayA)
-            {
-                c = Sum(a, c);
-            }
-
-            return c;
+            Assert.AreEqual(50, Addition.Sum(arrayB));
         }
     }
 }
