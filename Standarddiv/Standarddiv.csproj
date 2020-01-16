@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdditionTests\AdditionTests.csproj" />
+    <ProjectReference Include="..\Addition\Addition.csproj" />
+    <ProjectReference Include="..\CalcOperations\CalcOperations.csproj" />
+    <ProjectReference Include="..\CalculatorTests\CalculatorTests.csproj" />
+    <ProjectReference Include="..\Calculator\Calculator.csproj" />
+    <ProjectReference Include="..\DifferenceInterfaces\DifferenceInterfaces.csproj" />
+    <ProjectReference Include="..\DivisionTests\DivisionTests.csproj" />
+    <ProjectReference Include="..\Division\Division.csproj" />
+    <ProjectReference Include="..\HelpersTests\HelpersTests.csproj" />
+    <ProjectReference Include="..\Helpers\Helpers.csproj" />
+    <ProjectReference Include="..\MeanInterfaces\MeanInterfaces.csproj" />
+    <ProjectReference Include="..\MeanOperationTests\MeanOperationTests.csproj" />
+    <ProjectReference Include="..\MeanOperation\MeanOperation.csproj" />
+    <ProjectReference Include="..\Mutiplication\Mutiplication.csproj" />
+    <ProjectReference Include="..\RootInterfaces\RootInterfaces.csproj" />
+    <ProjectReference Include="..\SquareRootOperationTests\SquareRootOperationTests.csproj" />
+    <ProjectReference Include="..\SquareRootOperation\SquareRootOperation.csproj" />
+    <ProjectReference Include="..\Square\Square.csproj" />
+    <ProjectReference Include="..\SubtractionOperationTests1\SubtractionOperationTests1.csproj" />
+    <ProjectReference Include="..\SubtractionOperation\SubtractionOperation.csproj" />
+  </ItemGroup>
+
+</Project>
