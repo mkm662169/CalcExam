@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Helpers\Helpers.csproj" />
+    <ProjectReference Include="..\MeanOperation\MeanOperation.csproj" />
+    <ProjectReference Include="..\Square\Square.csproj" />
+    <ProjectReference Include="..\SubtractionOperation\SubtractionOperation.csproj" />
+  </ItemGroup>
+
+</Project>
