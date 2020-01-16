@@ -43,9 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeanInterfaces", "MeanInter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RootInterfaces", "RootInterfaces\RootInterfaces.csproj", "{68CE3132-8A9A-440F-BA89-98EE0874E6D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standarddiv", "Standarddiv\Standarddiv.csproj", "{DD1C7CCE-7E4A-47F2-901E-ADA16A229BFB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandarddivTests1", "StandarddivTests1\StandarddivTests1.csproj", "{BB14A25E-38AC-4ABB-878A-80CBC7096F45}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,14 +131,7 @@ Global
 		{68CE3132-8A9A-440F-BA89-98EE0874E6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68CE3132-8A9A-440F-BA89-98EE0874E6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68CE3132-8A9A-440F-BA89-98EE0874E6D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD1C7CCE-7E4A-47F2-901E-ADA16A229BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD1C7CCE-7E4A-47F2-901E-ADA16A229BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD1C7CCE-7E4A-47F2-901E-ADA16A229BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD1C7CCE-7E4A-47F2-901E-ADA16A229BFB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB14A25E-38AC-4ABB-878A-80CBC7096F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB14A25E-38AC-4ABB-878A-80CBC7096F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB14A25E-38AC-4ABB-878A-80CBC7096F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB14A25E-38AC-4ABB-878A-80CBC7096F45}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
